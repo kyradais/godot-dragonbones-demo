@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3s2on7flhqxh"
-path="res://.godot/imported/doc_icon.png-494948ec4a4e773174c4d54f73ad8364.ctex"
+path="res://.godot/imported/doc_icon.png-bb2c846f7a4910374e6925e2fa121967.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Godot-DragonBones-d82ddeb38676a2c73f22153bc3bea4a26666eb2d/addons/godot_dragon_bones.daylily-zeleen/doc/doc_icon.png"
-dest_files=["res://.godot/imported/doc_icon.png-494948ec4a4e773174c4d54f73ad8364.ctex"]
+source_file="res://addons/godot_dragon_bones.daylily-zeleen/doc/doc_icon.png"
+dest_files=["res://.godot/imported/doc_icon.png-bb2c846f7a4910374e6925e2fa121967.ctex"]
 
 [params]
 

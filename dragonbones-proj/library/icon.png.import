@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byoetsj0ikfgn"
-path="res://.godot/imported/DragonBonesArmature.png-924b97a0f51644d90b47a1b47bc0a154.ctex"
+uid="uid://wgjr8ik0nfct"
+path="res://.godot/imported/icon.png-04558d5392af85d912dcbbf6ae7af838.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Godot-DragonBones-d82ddeb38676a2c73f22153bc3bea4a26666eb2d/addons/godot_dragon_bones.daylily-zeleen/icons/DragonBonesArmature.png"
-dest_files=["res://.godot/imported/DragonBonesArmature.png-924b97a0f51644d90b47a1b47bc0a154.ctex"]
+source_file="res://dragonbones-proj/library/icon.png"
+dest_files=["res://.godot/imported/icon.png-04558d5392af85d912dcbbf6ae7af838.ctex"]
 
 [params]
 
