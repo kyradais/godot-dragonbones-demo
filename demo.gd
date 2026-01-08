@@ -5,8 +5,9 @@ extends Node2D
 func _ready() -> void:
 	armature.debug = true
 	var a = armature.get_armature()
+	armature.current_animation	= "bone_armtail_rotation"
 	print("This is :", a)	
 
 func _process(delta: float) -> void:
-	var a = armature.get_armature()
-	print("That is :", a)	
+	var a = armature.get_bone("bone_tail")
+	print("That is :", a.rotation)
