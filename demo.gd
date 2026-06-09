@@ -5,28 +5,28 @@ extends Node2D
 
 func _ready() -> void:
 	armature.debug = true
-	armature.current_animation = "bone_armtail_rotation"
+	armature.current_animation = "bone_tail_rotation"
+	print(armature.get_bone("bone_tail").global_position)
 
 func _process(delta: float) -> void:
-	icon_node.global_position = armature.get_bone("bone_tail").global_position
+	icon_node.global_position = get_bone_global_position("bone_tail", Vector2(0,0))
 	icon_node.global_rotation = get_bone_global_rotation("bone_tail", 90)
 		
+func get_bone_global_position(bon_name: String, vector2Offset: Vector2) -> Vector2:
+	var finalPosition = armature.get_bone(bon_name).global_position + vector2Offset
+	return finalPosition
+	
 func get_bone_global_rotation(bone_name: String, degreOffset: float) -> float:
 	var final_rad: float = 0.0
 	var current_name = bone_name
-
 	while true:
 		var bone = armature.get_bone(current_name)
-
 		final_rad += bone.global_rotation
-
 		if bone.get_parent():
 			current_name = bone.get_parent().get_name()
 		else:
 			break
-			
 	final_rad += deg_to_rad(degreOffset)
-
 	return final_rad
 
 #func getBoneGlobalRotation(boneName: String) -> float:
